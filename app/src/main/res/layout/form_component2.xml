@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Apa hewan peliharaanmu?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/ckbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kucing"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/ckbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelinci"
+        android:layout_below="@+id/ckbox1"
+        android:layout_alignStart="@+id/ckbox1" />
+
+    <CheckBox
+        android:id="@+id/ckbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ckbox2"
+        android:layout_centerHorizontal="true"
+        android:text="Burung" />
+
+    <Button
+        android:id="@+id/submit_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Submit"
+        android:layout_below="@+id/ckbox3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/submit_btn2" />
+
+</RelativeLayout>
