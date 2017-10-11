@@ -41,7 +41,7 @@
         android:id="@+id/submit_btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="23dp"
         android:text="Submit"
         android:layout_below="@+id/ckbox3"
         android:layout_centerHorizontal="true" />
@@ -51,7 +51,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exit"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/submit_btn2" />
+        android:layout_below="@+id/submit_btn2"
+        android:layout_alignStart="@+id/submit_btn2"
+        android:layout_marginTop="29dp" />
 
 </RelativeLayout>
